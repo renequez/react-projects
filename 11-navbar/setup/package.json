@@ -18,7 +18,8 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "rules": {"react/jsx-one-expression-per-line": [0, { "allow": "literal" }]}
   },
   "browserslist": {
     "production": [
